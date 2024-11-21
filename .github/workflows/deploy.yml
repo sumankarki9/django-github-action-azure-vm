@@ -38,7 +38,7 @@ jobs:
         with:
             host: ${{ secrets.AZURE_VM_IP }}
             username: ${{ secrets.AZURE_VM_USER }}
-            key: ${{ secrets.AZURE_VM_SSH_KEY }}
+            key: ${{ secrets.AZURE_VM_KEY }}
             script: |
                 docker pull sumankarki/python-app:latest
                 docker stop python-app || true
