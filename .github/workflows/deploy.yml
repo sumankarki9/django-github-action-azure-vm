@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: <dockerhub-username>/python-app:latest
+          tags: sumankarki/python-app:latest
